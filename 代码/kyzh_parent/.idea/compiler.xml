@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fastDFSDemo" />
+        <module name="kyzh_article_interface" />
+        <module name="kyzh_article_service" />
+        <module name="kyzh_common" />
+        <module name="kyzh_dao" />
+        <module name="kyzh_manager_web" />
+        <module name="kyzh_pojo" />
+        <module name="kyzh_sellergoods_interface" />
+        <module name="kyzh_sellergoods_service" />
+        <module name="kyzh_shop_web" />
+        <module name="kyzh_user_interface" />
+        <module name="kyzh_user_service" />
+        <module name="kyzh_user_web" />
+        <module name="pyg_sellergoods_interface" />
+        <module name="pyg_sellergoods_service" />
+        <module name="sqlgenerator" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="fastDFSDemo" target="1.8" />
+      <module name="kyzh_article_interface" target="1.8" />
+      <module name="kyzh_article_service" target="1.8" />
+      <module name="kyzh_common" target="1.8" />
+      <module name="kyzh_dao" target="1.8" />
+      <module name="kyzh_manager_web" target="1.8" />
+      <module name="kyzh_parent" target="1.8" />
+      <module name="kyzh_pojo" target="1.8" />
+      <module name="kyzh_sellergoods_interface" target="1.8" />
+      <module name="kyzh_sellergoods_service" target="1.8" />
+      <module name="kyzh_shop_web" target="1.8" />
+      <module name="kyzh_user_interface" target="1.8" />
+      <module name="kyzh_user_service" target="1.8" />
+      <module name="kyzh_user_web" target="1.8" />
+      <module name="pyg_sellergoods_interface" target="1.8" />
+      <module name="pyg_sellergoods_service" target="1.8" />
+      <module name="sqlgenerator" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
