@@ -1,0 +1,182 @@
+10
+
+dir
+0
+https://win-icehjj1kb3m:8443/svn/kyzhfu_repository/kyzh/trunk/sqlgenerator_idea/.idea/libraries
+https://win-icehjj1kb3m:8443/svn/kyzhfu_repository
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+058dc11e-7139-e141-a9f9-41385b9fe115
+
+Maven__antlr_antlr_2_7_7.xml
+file
+
+
+
+add
+
+Maven__com_mchange_c3p0_0_9_2_1.xml
+file
+
+
+
+add
+
+Maven__com_mchange_mchange_commons_java_0_2_3_4.xml
+file
+
+
+
+add
+
+Maven__dom4j_dom4j_1_6_1.xml
+file
+
+
+
+add
+
+Maven__junit_junit_4_12.xml
+file
+
+
+
+add
+
+Maven__log4j_log4j_1_2_17.xml
+file
+
+
+
+add
+
+Maven__mysql_mysql_connector_java_5_1_6.xml
+file
+
+
+
+add
+
+Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml
+file
+
+
+
+add
+
+Maven__org_apache_logging_log4j_log4j_api_2_11_0.xml
+file
+
+
+
+add
+
+Maven__org_apache_logging_log4j_log4j_core_2_11_0.xml
+file
+
+
+
+add
+
+Maven__org_hamcrest_hamcrest_core_1_3.xml
+file
+
+
+
+add
+
+Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml
+file
+
+
+
+add
+
+Maven__org_hibernate_hibernate_c3p0_5_0_7_Final.xml
+file
+
+
+
+add
+
+Maven__org_hibernate_hibernate_core_5_0_7_Final.xml
+file
+
+
+
+add
+
+Maven__org_hibernate_hibernate_entitymanager_5_0_7_Final.xml
+file
+
+
+
+add
+
+Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml
+file
+
+
+
+add
+
+Maven__org_javassist_javassist_3_18_1_GA.xml
+file
+
+
+
+add
+
+Maven__org_jboss_jandex_2_0_0_Final.xml
+file
+
+
+
+add
+
+Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml
+file
+
+
+
+add
+
+Maven__org_mybatis_generator_mybatis_generator_core_1_3_3.xml
+file
+
+
+
+add
+
+Maven__org_mybatis_mybatis_3_2_8.xml
+file
+
+
+
+add
+
+Maven__xml_apis_xml_apis_1_0_b2.xml
+file
+
+
+
+add
+

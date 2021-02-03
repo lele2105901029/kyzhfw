@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+    
+    <context id="caigouTables" targetRuntime="MyBatis3">
+
+        <!-- 生成的pojo，将implements Serializable-->
+        <plugin type="org.mybatis.generator.plugins.SerializablePlugin"></plugin>
+
+        <commentGenerator>
+            <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>
+        <!--数据库连接的信息：驱动类、连接地址、用户名、密码 -->
+
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://192.168.0.222:3306/kyzhfwptdb" userId="root"
+                        password="123456">
+        </jdbcConnection>
+
+
+        <!-- <jdbcConnection driverClass="oracle.jdbc.OracleDriver"
+        connectionURL="jdbc:oracle:thin:@127.0.0.1:1521:yycg"
+        userId="yycg"
+        password="yycg">pojo mapper接口 mapper映射文件
+        </jdbcConnection> -->
+
+
+        <!-- 默认 false，把 JDBC DECIMAL 和 NUMERIC 类型解析为 Integer true，把 JDBC DECIMAL 和
+        NUMERIC 类型解析为java.math.BigDecimal -->
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false"/>
+        </javaTypeResolver>
+
+
+        <!-- targetProject:生成 POJO 类的位置 targetPackage:生成后类所在包-->
+        <javaModelGenerator targetPackage="com.kyzh.pojo" targetProject="src/main/java">
+            <!-- enableSubPackages:是否让schema 作为包的后缀 -->
+            <property name="enableSubPackages" value="true"/>
+            <!-- 从数据库返回的值被清理前后的空格 -->
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+
+
+        <!-- 生成 XML文件 -->
+        <sqlMapGenerator targetPackage="com.kyzh.mapper" targetProject="./src/main/resources">
+            <property name="enableSubPackages" value="false"/>
+        </sqlMapGenerator>
+
+        <!-- targetProject:自动生成Dao层 mapper 接口的位置 -->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.kyzh.mapper" targetProject="./src/main/java">
+            <property name="enableSubPackages" value="false"/>
+        </javaClientGenerator>
+
+        <!-- 这里配置要生成的数据表 -->
+        <table tableName="tb_exhibit_type"></table>
+        <!-- <table tableName="tb_article"></table>
+         <table tableName="tb_article_content"></table>
+          <table tableName="tb_item"></table>
+          <table tableName="tb_item_cat"></table>
+          <table tableName="tb_order"></table>
+          <table tableName="tb_order_item"></table>
+          <table tableName="tb_address"></table>
+          <table tableName="tb_brand"></table>
+          <table tableName="tb_seller"></table>
+          <table tableName="tb_specification"></table>
+          <table tableName="tb_specification_option"></table>
+          <table tableName="tb_type_template"></table>
+          <table tableName="tb_goods"></table>
+          <table tableName="tb_goods_desc"></table>
+          <table tableName="tb_pay_log"></table>
+          <table tableName="tb_seckill_goods"></table>
+          <table tableName="tb_seckill_order"></table>-->
+    </context>
+</generatorConfiguration>
